@@ -1,0 +1,11 @@
+Model Information:
+* title:	Free 3D sports Football with PBR texture
+* source:	https://sketchfab.com/3d-models/free-3d-sports-football-with-pbr-texture-52aa177458e944dbb9abed7e88eb5ed5
+* author:	B1Blender (https://sketchfab.com/B1Blender)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Free 3D sports Football with PBR texture" (https://sketchfab.com/3d-models/free-3d-sports-football-with-pbr-texture-52aa177458e944dbb9abed7e88eb5ed5) by B1Blender (https://sketchfab.com/B1Blender) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
