@@ -20,6 +20,7 @@
     "@angular/router": "~12.1.2",
     "@types/three": "^0.131.0",
     "aameeq": "file:",
+    "bootstrap": "^5.3.3",
     "rxjs": "~6.6.0",
     "three": "^0.132.2",
     "tslib": "^2.2.0",

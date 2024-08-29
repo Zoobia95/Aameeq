@@ -1,0 +1,135 @@
+#canvas {
+  height: 40vh;
+  width: 20vw;
+}
+
+.row1,
+.row3 {
+  height: 2rem;
+}
+
+.col1 {
+  margin-right: 100px;
+}
+
+.logoCol2 {
+  margin-left: 15px;
+  margin-top: 6rem;
+}
+
+.logoImage {
+  margin-left: -270px;
+  margin-top: 70px;
+  animation: fadeOut 6s;
+}
+
+.slogan {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: -60px;
+  font-size: 26px;
+  font-style: italic;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 3s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.content1 {
+  animation: fadeOut 3s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.content2 {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.content3 {
+  animation: fadeIn2 3s;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.myLogoImage {
+  height: 100px;
+}
+
+.translate-x-and-y {
+  transform: translate(-690px, -175px);
+}
+
+.smallLogoImage{
+  transform: scale(0.5)
+}
+
+#animateContent2{
+  transition: transform 0.5s linear;
+}
+
+#myImage{
+  transition: transform 0.5s;
+}
+
+svg{
+  margin-top: 0px;
+  margin-left: 85px;
+
+}
+
+/* body{
+  background-color: black;
+} */
+
+circle{
+  fill: rgb(231, 9, 57);
+  animation-name: slide;
+  animation-duration: 8s;
+  animation-direction: forward;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide{
+  from{
+    transform: translateX(10px);
+  }
+  to{
+    transform: translateX(900px);
+  }
+}
