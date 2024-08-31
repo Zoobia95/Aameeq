@@ -1,0 +1,17 @@
+.active {
+  font-weight: 700;
+}
+
+:host ::ng-deep .nav-item.active {
+  background-color: rgb(240, 199, 199);
+  border: 2px solid rgb(240, 199, 199);
+  border-radius: 4px;
+}
+
+:host ::ng-deep .nav-link.active {
+  color: red;
+}
+
+:host ::ng-deep .nav-link:hover {
+  color: red;
+}
