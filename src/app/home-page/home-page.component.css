@@ -3,8 +3,8 @@
 }
 
 :host ::ng-deep .nav-item.active {
-  background-color: rgb(240, 199, 199);
-  border: 2px solid rgb(240, 199, 199);
+  background-color: rgb(255, 230, 230);
+  border: 2px solid rgb(255, 230, 230);
   border-radius: 4px;
 }
 
