@@ -1,0 +1,226 @@
+.body {
+  position: absolute;
+  padding: 30px 90px;
+  height: 50%;
+  top: 10%;
+  width: 100%;
+}
+
+.slogan {
+  color: white;
+  text-align: center;
+  cursor: url("../../assets/SVG/torch.svg"), auto;
+}
+
+.darkness {
+  position: absolute;
+  top: 0%;
+  bottom: 77%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.light {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  -webkit-box-shadow: 400vh 0px 0px 400vw #2f2f30;
+  -moz-box-shadow: 400vh 0px 0px 400vw #2f2f30;
+  box-shadow: 400vh 0px 0px 400vw #2f2f30;
+}
+
+.shadow {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: inset 4px 0 37px 53px #2f2f30;
+  -moz-box-shadow: inset 4px 0 37px 53px #2f2f30;
+  box-shadow: inset 4px 0 37px 53px #2f2f30 !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .slogan {
+    color: white;
+    text-align: center;
+    cursor: url("../../assets/SVG/torch.svg"), auto;
+    font-size: 10px !important;
+  }
+  .body {
+    position: absolute;
+    padding: 19px 90px;
+    height: 8%;
+    top: 10%;
+    width: 100%;
+  }
+  .darkness {
+    position: absolute;
+    top: 0%;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .light {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 200vh 0px 0px 400vw #2f2f30;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .slogan {
+    color: white;
+    text-align: center;
+    cursor: url("../../assets/SVG/torch.svg"), auto;
+    font-size: 15px !important;
+  }
+  .body {
+    position: absolute;
+    padding: 19px 90px;
+    height: 8%;
+    top: 10%;
+    width: 100%;
+  }
+  .darkness {
+    position: absolute;
+    top: 0%;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .light {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 200vh 0px 0px 400vw #2f2f30;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .slogan {
+    color: white;
+    text-align: center;
+    cursor: url("../../assets/SVG/torch.svg"), auto;
+    font-size: 15px !important;
+  }
+  .body {
+    position: absolute;
+    padding: 30px 90px;
+    height: 50%;
+    top: 10%;
+    width: 100%;
+  }
+  .darkness {
+    position: absolute;
+    top: 0%;
+    bottom: 77%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .light {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    -webkit-box-shadow: 400vh 0px 0px 400vw #2f2f30;
+    -moz-box-shadow: 400vh 0px 0px 400vw #2f2f30;
+    box-shadow: 400vh 0px 0px 400vw #2f2f30;
+  }
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .slogan {
+    color: white;
+    text-align: center;
+    cursor: url("../../assets/SVG/torch.svg"), auto;
+    font-size: 15px !important;
+  }
+  .body {
+    position: absolute;
+    padding: 30px 90px;
+    height: 50%;
+    top: 10%;
+    width: 100%;
+  }
+  .darkness {
+    position: absolute;
+    top: 0%;
+    bottom: 77%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .light {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    -webkit-box-shadow: 400vh 0px 0px 400vw #2f2f30;
+    -moz-box-shadow: 400vh 0px 0px 400vw #2f2f30;
+    box-shadow: 400vh 0px 0px 400vw #2f2f30;
+  }
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .slogan {
+    color: white;
+    text-align: center;
+    cursor: url("../../assets/SVG/torch.svg"), auto;
+    font-size: 30px !important;
+  }
+  .body {
+    position: absolute;
+    padding: 30px 90px;
+    height: 50%;
+    top: 10%;
+    width: 100%;
+  }
+  .darkness {
+    position: absolute;
+    top: 0%;
+    bottom: 77%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .light {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    -webkit-box-shadow: 400vh 0px 0px 400vw #2f2f30;
+    -moz-box-shadow: 400vh 0px 0px 400vw #2f2f30;
+    box-shadow: 400vh 0px 0px 400vw #2f2f30;
+  }
+  
+}
